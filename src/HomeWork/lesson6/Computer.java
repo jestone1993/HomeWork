@@ -28,7 +28,7 @@ class Pc {
     }
 
     void show4() {
-        System.out.print(price + "$ " + model + " " + memory1.Name + " " + memory1.Volume + "gb " + hardDisk1.Volume + "tb " + hardDisk1.Name + " " + hardDisk1.type);
+        System.out.print(price + "$ " + model + " " + memory1.name + " " + memory1.volume + "gb " + hardDisk1.volume + "tb " + hardDisk1.name + " " + hardDisk1.type);
     }
 
     public Pc(Ram memory1, Hdd hardDisk1, int price, String model) {
@@ -42,7 +42,7 @@ class Pc {
 
     void show() {
         System.out.println();
-        System.out.print(price + "$ " + model + " " + memory1.Name + " " + memory1.Volume + "gb " + hardDisk1.Volume + "tb " + hardDisk1.Name + " " + hardDisk1.type);
+        System.out.print(price + "$ " + model + " " + memory1.name + " " + memory1.volume + "gb " + hardDisk1.volume + "tb " + hardDisk1.name + " " + hardDisk1.type);
     }
 
 }
