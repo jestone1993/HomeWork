@@ -34,18 +34,18 @@ public class StringMethod {
         System.out.println("2)" + str1.substring(0, 9) + str2.substring(9, 19) + str3.substring(19));
     }
 
-    public static void Search(String str) {
+    public static void search(String str) {
         System.out.println(str.toLowerCase().contains("abc"));
 
 
     }
 
-    public static void CheckStartWith(String str) {
+    public static void checkStartWith(String str) {
         System.out.println(str.startsWith("555", 0));
 
     }
 
-    public static void CheckLastWith(String str) {
+    public static void checkLastWith(String str) {
         System.out.println(str.endsWith("1a2b"));
     }
 }

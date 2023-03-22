@@ -9,9 +9,9 @@ public class Main {
         StringMethod.replaceSubString1(str);
         StringMethod.onlyWordsY(str);
         StringMethod.letters(str);
-        StringMethod.Search(str);
-        StringMethod.CheckStartWith(str);
-        StringMethod.CheckLastWith(str);
+        StringMethod.search(str);
+        StringMethod.checkStartWith(str);
+        StringMethod.checkLastWith(str);
 
     }
 }
