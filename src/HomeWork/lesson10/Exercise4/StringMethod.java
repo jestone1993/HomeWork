@@ -32,7 +32,7 @@ public class StringMethod {
         String str4 = str.substring(21, 22);
         String str5 = str.join("/", str1, str2, str3, str4);
         StringBuilder stringBuilder = new StringBuilder();
-        System.out.println("3)" + stringBuilder.append(str5));
+        System.out.println("3)" + stringBuilder.append(str5.toLowerCase()));
 
     }
 
