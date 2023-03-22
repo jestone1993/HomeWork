@@ -15,23 +15,30 @@ public class StringMethod {
     }
 
     public static void letters(String str) {
-        String str1 = str.join("/", "qwe", "ere", "x", "p").replace("qwe", "yyy").replace("ere", "yyy").replace("x", "y").replace("p", "y").toUpperCase();
+        String str1 = str.substring(5, 8);
+        String str2 = str.substring(14, 17);
+        String str3 = str.substring(19, 20);
+        String str4 = str.substring(21, 22);
+        String str5 = str.join("/", str1, str2, str3, str4);
         StringBuilder stringBuilder = new StringBuilder();
-        System.out.println("4)Letters: " + stringBuilder.append(str1));
+        System.out.println("4)Letters: " + stringBuilder.append(str5.toUpperCase()));
+
     }
 
     public static void onlyWordsY(String str) {
-        String str1 = str.join("/", "qwe", "ere", "x", "p").replace("qwe", "yyy").replace("ere", "yyy").replace("x", "y").replace("p", "y");
-        System.out.println("3)" + str1);
+        String str1 = str.substring(5, 8);
+        String str2 = str.substring(14, 17);
+        String str3 = str.substring(19, 20);
+        String str4 = str.substring(21, 22);
+        String str5 = str.join("/", str1, str2, str3, str4);
+        StringBuilder stringBuilder = new StringBuilder();
+        System.out.println("3)" + stringBuilder.append(str5));
 
     }
 
     public static void replaceSubString1(String str) {
-        String str1 = str.replace("qwe", "***");
-        String str2 = str.replace("ere", "***");
-        String str3 = str.replace("1x1p", "1*1*");
-        str2.split("qwe", 3);
-        System.out.println("2)" + str1.substring(0, 9) + str2.substring(9, 19) + str3.substring(19));
+        String str3 = str.replace(str.substring(5, 8), "***").replace(str.substring(14, 17), "***");
+        System.out.println("2)" + str3);
     }
 
     public static void search(String str) {
@@ -45,7 +52,7 @@ public class StringMethod {
     }
 
     public static void checkStartWith(String str) {
-        System.out.println(str.startsWith("555", 0));
+        System.out.println(str.startsWith("555"));
 
     }
 
