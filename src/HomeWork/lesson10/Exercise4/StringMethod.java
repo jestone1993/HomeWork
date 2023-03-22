@@ -35,7 +35,11 @@ public class StringMethod {
     }
 
     public static void search(String str) {
-        System.out.println(str.toLowerCase().contains("abc"));
+        if (str.contains("abc")) {
+            System.out.println("Найдено");
+        } else {
+            System.out.println("Не найдено");
+        }
 
 
     }
